@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>eSportium - Elevating Competitive Gaming</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #000000; /* Black font color */
+    background-color: #FFFFFF; /* White dominant background */
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000000; /* Black font color */
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #000000; /* Black font color */
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .jumbotron {
+    background-color: #000000; /* Black header background */
+    color: #FFFFFF; /* White font color */
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #FFFFFF; /* White background */
+  }
+  .logo-small {
+    color: #000000; /* Black font color */
+    font-size: 50px;
+  }
+  .logo {
+    color: #000000; /* Black font color */
+    font-size: 250px; /* Bigger logo */
+    margin-top: 20px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #FFFFFF; /* White background */
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #000000 !important; /* Black font color */
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000000 !important; /* Black font color */
+    background-color: #FFFFFF !important; /* White background */
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #000000 !important; /* Black font color */
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000000; /* Black font color */
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+
+  /* Follow Us Section Styles */
+  .follow-section {
+    padding: 60px 0;
+    background-color: #FFFFFF; /* White background */
+  }
+  .follow-box {
+    text-align: center;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .follow-box img {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+  .follow-handle {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .follow-box {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#myPage">eSportium</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#services">PLATFORM</a></li>
+          <li><a href="#follow">FOLLOW US</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="jumbotron text-center">
+      <h1>COMING SUMMER 2024!</h1>
+    <h1>eSportium</h1> 
+    <h3>Elevate Your Game, Claim Your Glory.</h3> 
+    
+  </div>
+
+<!-- About Section -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About eSportium</h2><br>
+      <h4>eSportium is more than just a platform; it's a vibrant community where passionate competitive gamers come together to elevate their skills, strive for greatness, and celebrate their love for gaming. Born from the minds of avid gamers, we deeply understand the drive, dedication, and competitive spirit that drives gamers to excel. </h4><br>
+      <h4>In the competitive gaming landscape, reaching the pinnacle of success is not a solitary endeavor. It's a journey of building connections, learning from peers, and growing collectively. At eSportium, we are committed to fostering this sense of community.</h4>
+      <h4>Our mission is to provide a platform where gamers can not only showcase their talents but also learn, evolve, and inspire others.</h4>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/img1.png" alt="Twitter Logo">
+    </div>
+  </div>
+</div>
+
+<!-- Services Section -->
+<div id="services" class="container-fluid text-center">
+  <h2>PLATFORM</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+        <span class="glyphicon glyphicon-globe logo-small"></span>
+        <h4>Competitive Gaming</h4>
+        <p>Join our competitive gaming ladders, wagers and tournaments to showcase your skills against the best gamers from around the world.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-usd logo-small"></span>
+        <h4>Rewards and Prizes</h4>
+        <p>Earn rewards and prizes based on your performance in our competitive gaming tournaments.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-lock logo-small"></span>
+        <h4>Secure and Fair</h4>
+        <!-- Third one stays the same -->
+        <p>We prioritize security and fair play to ensure a positive gaming experience for all our users.</p>
+      </div>      
+  </div>
+</div>
+
+<!-- Follow Us Section -->
+<div id="follow" class="follow-section">
+  <div class="container">
+    <h2 class="text-center">FOLLOW US ON OUR JOURNEY</h2>
+    <div class="row">
+      <div class="col-sm-3 follow-box">
+        <a href="https://x.com/play_esportium"><img src="images/x.png" alt="Twitter Logo"></a>
+        <p class="follow-handle">@Play_eSportium</p>
+      </div>
+      <div class="col-sm-3 follow-box">
+        <a href="https://esportium.gg"><img src="images/ig.png" alt="Instagram Logo"></a>
+        <p class="follow-handle">@eSportium.gg</p>
+      </div>
+      <div class="col-sm-3 follow-box">
+        <a href="https://twitch.tv/esportium"><img src="images/twitch.png" alt="Twitch Logo"></a>
+        <p class="follow-handle">@eSportium</p>
+      </div>
+      <div class="col-sm-3 follow-box">
+        <a href="https://youtube.com/@eSportium"><img src="images/yt.png" alt="YouTube Logo"></a>
+        <p class="follow-handle">@eSportium</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>eSportium Powered By Heza Digital</a></p>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+      if (pos < winTop + 600) {
+        $(this).addClass("slide");
+      }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
